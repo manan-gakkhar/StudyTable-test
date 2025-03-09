@@ -1,0 +1,171 @@
+
+.studytable-container {
+  width: 100%;
+  min-height: 90vh;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 8rem;
+  box-sizing: border-box;
+}
+
+/* Header */
+.studytable-header {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  top: 40px;
+}
+
+.studytable-logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Main content */
+.studytable-content {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Text content */
+.studytable-text-content {
+  width: 100%;
+  text-align: left;
+}
+
+.studytable-headline {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.studytable-primary {
+  color: #FFF;
+}
+
+.studytable-secondary {
+  color: #999;
+}
+
+.studytable-description {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  /* padding: 0 1rem; */
+}
+
+/* Buttons */
+.studytable-action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.studytable-button {
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.studytable-primary-button {
+  background-color: white;
+  color: #1a1a1a;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.studytable-primary-button:hover {
+  background-color: #f0f0f0;
+}
+
+.studytable-text-button {
+  color: white;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.studytable-text-button:hover {
+  color: #e0e0e0;
+}
+
+.studytable-arrow {
+  margin-left: 0.5rem;
+}
+
+/* Illustration */
+.studytable-illustration {
+  width: 100%;
+  max-width: 350px;
+}
+
+.studytable-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+
+/* Tablet View (768px and above) */
+@media (min-width: 768px) {
+  .studytable-content {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 3rem;
+  }
+
+  .studytable-text-content {
+    width: 50%;
+  }
+
+  .studytable-illustration {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .studytable-action-buttons {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .studytable-headline {
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktop View (1024px and above) */
+@media (min-width: 1024px) {
+  .studytable-headline {
+    font-size: 3rem;
+  }
+
+  .studytable-description {
+    font-size: 1.2rem;
+  }
+
+  .studytable-illustration {
+    max-width: 500px;
+  }
+}

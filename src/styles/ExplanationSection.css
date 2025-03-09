@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap');
+
+.explanation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+/* Large Black Bow-Shaped Box */
+.large-black-box {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px;
+  border-radius: 1.25rem;
+  background: linear-gradient(0deg, #2A2A2A 0%, #2A2A2A 100%);
+  mix-blend-mode: luminosity;
+  text-align: left;
+  color: #FFF;
+  position: relative;
+}
+
+
+/* Heading */
+.box-heading {
+  font-size: 2.375rem;
+  font-weight: 600;
+  font-family: "Instrument Sans", sans-serif;
+  color: #FFF;
+}
+
+/* Subtext */
+.box-subtext {
+  font-size: 1.175rem;
+  font-weight: 400;
+  line-height: 2.125rem;
+  font-family: "Instrument Sans", sans-serif;
+  color: #E5E5E5;
+  margin-top: 15px;
+}
+
+/* Read More Link */
+.box-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "Instrument Sans", sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 15px;
+  display: inline-block;
+}
